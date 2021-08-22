@@ -1,0 +1,22 @@
+_________
+
+22/08/21:
+_________
+
+THE BEGGINING OF IT ALL
+
++ added Player
+	+ added Move.ase
+	+ added Base.ase
+	+ added Open.ase
+	
++ added Bin bag enemy
+	+ added Base.ase
+	+ added Move.ase
+	
++ added Partial Level Gen
+	+ added Level 1 tile
+	+ added Simple Corner Gen
+	+ added Simple Grid Gen (Innacurate)
+	
++ added Github Repositry
