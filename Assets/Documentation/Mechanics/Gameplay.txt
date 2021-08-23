@@ -2,6 +2,8 @@ Player;
 is a trash can.
 should have a gun.
 should collect *crazy* guns throughout each level.
+could have finishing move called "trash talk" where they insult the object there attacking - 
+	i.e if its a hoover they'd say you suck! and the hoover would say well ye- and then explode
 
 Levels;
 should be procedurally generated.
@@ -12,6 +14,9 @@ should come in tons (for chaos of course).
 should shoot lots of bullets (producing further chaos).
 should create tons of explosions (MORE CHAOS).
 should have interesting attacks (for ... ehem - chaos).
+bullets could bounce for difficulty increase.
+bullets should fade over time.
+
 
 The Game;
 Should be near impossible to defeat but keep the player alive to let them suffer (MWAHAHAHHA)

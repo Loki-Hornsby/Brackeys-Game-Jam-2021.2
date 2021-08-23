@@ -1,0 +1,31 @@
+_________
+
+23/08/21:
+_________
+
++ added Edges
+	+ added Walls
+		+ added Colliders
+	+ added Corners
+		+ added Colliders
+		
++ added fully scalable grid - this makes for some interesting levels small, big, huuuuge
+
++ added Player Movement
+	+ added Move Animation
+
++ added level 1:
+	+ added Tiles
+		+ added tile1 - level1 - Solid
+		+ added tile2 - level1
+		+ added tile3 - level1
+	
+	+ added Bin Bag enemy
+		+ added Movement
+		+ added Death
+		+ added Flip to face player
+	
+	+ added Bin Juice
+		+ added Trigger
+	
++ added Healthbar

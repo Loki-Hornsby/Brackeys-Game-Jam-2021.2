@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - SpawnPoint
-  - Rooms
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -45,4 +44,19 @@ TagManager:
     locked: 0
   - name: Front
     uniqueID: 4222005387
+    locked: 0
+  - name: Projectiles
+    uniqueID: 3795541657
+    locked: 0
+  - name: Enemies
+    uniqueID: 349038477
+    locked: 0
+  - name: Player
+    uniqueID: 1692707075
+    locked: 0
+  - name: Weapon
+    uniqueID: 4268481585
+    locked: 0
+  - name: UI
+    uniqueID: 914443741
     locked: 0
