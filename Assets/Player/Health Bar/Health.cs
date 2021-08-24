@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Health : MonoBehaviour{
+    public Animator Anim;
+
     public Image fill;
     public Gradient gradient;
     public Slider slider;
@@ -12,7 +14,17 @@ public class Health : MonoBehaviour{
     private int MaxVal;
 
     public void UpdateHealth(int val){
-        _Health += val;
+        if ((_Health + val) > 0){
+            Anim.SetTrigger("Hurt");
+
+            _Health += val;
+        } else {
+            Anim.SetTrigger("Kill");
+
+            Debug.Log("GameOver - set trigger in animation");
+
+            _Health = 0;
+        }
 
         slider.maxValue = MaxVal;
         slider.value = _Health;

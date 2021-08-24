@@ -1,0 +1,18 @@
+_________
+
+24/08/21:
+_________
+
+] moved Generation into a callable function which will be used by Levels.cs
+] moved Health onto main player for easier access by other scripts
++ added now using correct procedure and player now gets hurt
++ added Explosion
+% changed bin juice to now hurt the player
++ added Hurt Animation
++ added Death Animation
+% changed Health bar to look a bit cooler 
+% changed a tiles collision since it was blocking the player
++ added Worm spotter.ase file
+	(who will spawn worms if player is in radius that will relentlessly hunt down the player damaging him 5 points - they will be incredibly fast)
+	note: worms are counted as projectiles
+] moved Folders for cleaner hierarchy

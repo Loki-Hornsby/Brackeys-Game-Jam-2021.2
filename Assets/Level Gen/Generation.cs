@@ -21,14 +21,8 @@ public class Generation : MonoBehaviour{
     public GameObject RightWall;
     public GameObject TopWall;
     public GameObject BottomWall;
-    [Space(10)]
 
-    [Header("Levels")]
-    public List<GameObject> Level1_tiles = new List<GameObject>();
-    private List<GameObject> tiles = new List<GameObject>();
-    
-    public List<GameObject> Level1_enemies = new List<GameObject>();
-    public List<GameObject> Level1_props = new List<GameObject>();
+    private List<GameObject> tilePositions = new List<GameObject>();
 
     private GameObject Corners(int x, int y){
         // Bottom left Corner
@@ -78,19 +72,19 @@ public class Generation : MonoBehaviour{
         return null;
     }
 
-    GameObject PickEnemy(){
-        return Level1_enemies[Random.Range(0, Level1_enemies.Count)];
+    GameObject PickEnemy(List<GameObject> Enemies){
+        return Enemies[Random.Range(0, Enemies.Count)];
     }
 
-    void Start() {
-        // Tiles
+    public void Gen(List<GameObject> Tiles, List<GameObject> Enemies, List<GameObject> Props){
         GameObject Centre = new GameObject("Centre");
         Centre.transform.position = new Vector2((Amount/2f)-0.5f, (Amount/2f)-0.5f);
         
         for (int x = 0; x < Amount; x++){
             for (int y = 0; y < Amount; y++){
+                // Tiles
                 GameObject obj_ = Instantiate(
-                    Level1_tiles[Random.Range(0, Level1_tiles.Count)], 
+                    Tiles[Random.Range(0, Tiles.Count)], 
                     new Vector2(
                         (x*(Size.x/1.6f)), 
                         (y*(Size.y/1.6f))), 
@@ -99,8 +93,10 @@ public class Generation : MonoBehaviour{
                 obj_.transform.localScale = Size;
                 obj_.name = x.ToString() + ", " + y.ToString();
                 obj_.transform.parent = this.transform;
-                tiles.Add(obj_);
 
+                tilePositions.Add(obj_);
+
+                // Corners
                 if (Corners(x, y) != null){
                     GameObject tem = Instantiate(
                         Corners(x, y), 
@@ -113,6 +109,7 @@ public class Generation : MonoBehaviour{
                     tem.transform.localScale = Size/10f;
                 } else
 
+                // Walls
                 if (Walls(x, y) != null){
                     GameObject tem = Instantiate(
                         Walls(x, y),
@@ -131,11 +128,11 @@ public class Generation : MonoBehaviour{
         int enemy_count = Random.Range(1, 200);
 
         for (int e = 0; e < enemy_count; e++){
-            GameObject enemy_ = PickEnemy();
+            GameObject enemy_ = PickEnemy(Enemies);
 
             GameObject obj_ = Instantiate(
                     enemy_, 
-                    tiles[Random.Range(0, tiles.Count)].transform.position, 
+                    tilePositions[Random.Range(0, tilePositions.Count)].transform.position, 
                     Quaternion.identity);
         }
     }

@@ -36,15 +36,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Player\Health Bar\Health.cs" />
      <Compile Include="Assets\Enemies\Bin bag\binbag.cs" />
      <Compile Include="Assets\Level Gen\Generation.cs" />
      <Compile Include="Assets\Player\PlayerMove.cs" />
-     <Compile Include="Assets\Player\Health Bar\Health.cs" />
-     <Compile Include="Assets\Player\PlayerDamage.cs" />
+     <Compile Include="Assets\Level Gen\Levels.cs" />
+     <Compile Include="Assets\Projectiles\Explosion\Explode.cs" />
+     <Compile Include="Assets\Projectiles\Bin Juice\BinJuice.cs" />
      <None Include="Assets\Documentation\Change Log\22.08.21.txt" />
      <None Include="Assets\Documentation\Mechanics\Gameplay.txt" />
      <None Include="Assets\Documentation\Change Log\23.08.21.txt" />
      <None Include="Assets\Documentation\Mechanics\Mechanics.txt" />
+     <None Include="Assets\Documentation\What i learnt from this\a.txt" />
+     <None Include="Assets\Documentation\Change Log\24.08.21.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity Installs/2020.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
