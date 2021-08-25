@@ -134,6 +134,7 @@ public class Generation : MonoBehaviour{
                     enemy_, 
                     tilePositions[Random.Range(0, tilePositions.Count)].transform.position, 
                     Quaternion.identity);
+            
         }
     }
 }

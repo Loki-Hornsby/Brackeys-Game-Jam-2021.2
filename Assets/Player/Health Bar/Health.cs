@@ -19,9 +19,11 @@ public class Health : MonoBehaviour{
 
             _Health += val;
         } else {
-            Anim.SetTrigger("Kill");
-
+            this.GetComponent<PlayerMove>().enabled = false;
+            this.GetComponent<Health>().enabled = false;
             Debug.Log("GameOver - set trigger in animation");
+
+            Anim.SetTrigger("Kill");
 
             _Health = 0;
         }

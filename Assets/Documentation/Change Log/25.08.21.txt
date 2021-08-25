@@ -1,0 +1,36 @@
+_________
+
+25/08/21:
+_________
+
++ added Sounds
+	+ added thud.wav
+	+ added explosion.wav
+	+ added shoot.wav
+	+ added hurt.wav
+	+ added open.wav
+	+ added invalid.wav
++ added Simple bullet animations
+	+ added base anim
+	+ added lifetime end anim
++ added Soap bottle animations
+	+ added move
+	+ added attack
++ added bubble animations
+	+ added base
++ added plasma grapes animations
+	+ added move
+	+ added attack
++ added plasma explosion.ase
++ added plasma explosion.wav
++ added Worm animation
+	+ added die.ase
+	+ added move.ase
++ added door animation
+	+ added base.ase
+	+ added Open.ase
++ added Door.cs
++ added Ammo.cs
++ added Worm Spotter.cs
++ added Worm.cs
++ added Tile1.cs (slows the player)

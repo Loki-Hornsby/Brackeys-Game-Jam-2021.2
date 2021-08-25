@@ -8,7 +8,7 @@ public class BinJuice : MonoBehaviour {
 
     void hurt(){
         if (hurtplayer){
-            Health.UpdateHealth(-2);
+            Health.UpdateHealth(-1);
         }
     }
 

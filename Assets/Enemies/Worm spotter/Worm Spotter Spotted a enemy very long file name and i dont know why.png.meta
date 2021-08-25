@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 1e74bfb63879a884587e912d403ea68f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8599887404200338713
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_0
+  - first:
+      213: -8182268382024941027
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_1
+  - first:
+      213: 1486526226797706846
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_2
+  - first:
+      213: -464904458176911419
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_3
+  - first:
+      213: 1235856897723567768
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_4
+  - first:
+      213: -6911614503976736427
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_5
+  - first:
+      213: 1919393250283097768
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_6
+  - first:
+      213: -5483461753653865582
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_7
+  - first:
+      213: 5626100201290773098
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_8
+  - first:
+      213: 5467848032103755648
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_9
+  - first:
+      213: -8317770866442254205
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_10
+  - first:
+      213: -7136218268823325500
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_11
+  - first:
+      213: -4794554310159234139
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_12
+  - first:
+      213: -3775604544722712071
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_13
+  - first:
+      213: -27859607978864252
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_14
+  - first:
+      213: -698375789303662692
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_15
+  - first:
+      213: 1111488194917190762
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_16
+  - first:
+      213: 6376076952409297633
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_17
+  - first:
+      213: -3283039623520682787
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_18
+  - first:
+      213: -4495993620510756050
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_19
+  - first:
+      213: -1792450258316752426
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_20
+  - first:
+      213: 872118999712436455
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_21
+  - first:
+      213: -3550660223448978999
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_22
+  - first:
+      213: -5908998376360161047
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_23
+  - first:
+      213: 242292206258925517
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_24
+  - first:
+      213: -3511877241536175131
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_25
+  - first:
+      213: -8166686093944920824
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_26
+  - first:
+      213: -2511372574760542502
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_27
+  - first:
+      213: 425400311833625136
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_28
+  - first:
+      213: 413774359096033535
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_29
+  - first:
+      213: 1676546245407624125
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_30
+  - first:
+      213: 876323556489268172
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_31
+  - first:
+      213: 6179357145604859637
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_32
+  - first:
+      213: -4503569010292582279
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_33
+  - first:
+      213: 8331930575657429199
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_34
+  - first:
+      213: -5474653283022885736
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_35
+  - first:
+      213: 3890478033400504082
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_36
+  - first:
+      213: 1746805189757804124
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_37
+  - first:
+      213: 1876844449011734427
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_38
+  - first:
+      213: -7729434509554155766
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_39
+  - first:
+      213: -3963601948810189250
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_40
+  - first:
+      213: 848557736743979599
+    second: Worm Spotter Spotted a enemy very long file name and i dont know why_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915a7bba700f85770800000000000000
+      internalID: 8599887404200338713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d124e70124eb27e80800000000000000
+      internalID: -8182268382024941027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e34913ab331a410800000000000000
+      internalID: 1486526226797706846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7aed3cbd35c89f0800000000000000
+      internalID: -464904458176911419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e8706fc45a62110800000000000000
+      internalID: 1235856897723567768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559670a5a330510a0800000000000000
+      internalID: -6911614503976736427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae0863edfd03aa10800000000000000
+      internalID: 1919393250283097768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29355027694d6e3b0800000000000000
+      internalID: -5483461753653865582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62b0b0235ce31e40800000000000000
+      internalID: 5626100201290773098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fec57b0d2b1eb40800000000000000
+      internalID: 5467848032103755648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388cd966777519c80800000000000000
+      internalID: -8317770866442254205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4f1273b4f07fc90800000000000000
+      internalID: -7136218268823325500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab04aee142567db0800000000000000
+      internalID: -4794554310159234139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Worm Spotter Spotted a enemy very long file name and i dont know why_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9c37babab5a9bc0800000000000000
+      internalID: -3775604544722712071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

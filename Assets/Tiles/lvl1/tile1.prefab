@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7173068741075802315}
   - component: {fileID: 8336248904321978257}
   - component: {fileID: 1315967066702212609}
+  - component: {fileID: 3447806235913801143}
   m_Layer: 0
   m_Name: tile1
   m_TagString: Untagged
@@ -93,7 +94,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -148,3 +149,15 @@ PolygonCollider2D:
       - {x: 0.11462636, y: 0.08716864}
       - {x: 0.07902671, y: 0.05621341}
       - {x: 0.031386197, y: 0.07567084}
+--- !u!114 &3447806235913801143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5461079514166935641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8fac30d1fc14ac409913d9fda56bb8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
