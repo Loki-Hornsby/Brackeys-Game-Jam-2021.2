@@ -10,8 +10,8 @@ public class Health : MonoBehaviour{
     public Gradient gradient;
     public Slider slider;
 
-    private int _Health;
-    private int MaxVal;
+    [System.NonSerialized] public int _Health;
+    [System.NonSerialized] public int MaxVal;
 
     public void UpdateHealth(int val){
         if ((_Health + val) > 0){

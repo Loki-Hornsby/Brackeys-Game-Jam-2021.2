@@ -1,0 +1,22 @@
+_________
+
+26/08/21:
+_________
+
+% changed healthbar (bar.png)
++ added Playershoot.cs
++ added Boot
++ added Pickups to Generation.cs
++ added AutoPickup.cs
+% changed AutoPickup.cs to AmmoItem.cs
++ added Door to Generation.cs
++ added Fade
+	+ added Fadein
+	+ added Fadout
+% changed Level.cs to generate random level - asset overhaul is key to this
+% changed Generation.cs to pick random sizes
++ added open portal sound into game
++ added invalid portal sound into game
++ added shoot sound into game
++ added Song1.wav
++ added StartFade.cs

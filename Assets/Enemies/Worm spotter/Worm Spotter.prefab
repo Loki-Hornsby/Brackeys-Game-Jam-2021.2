@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3748179125073505459}
   m_Layer: 0
   m_Name: Worm Spotter
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 349038477
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 8599887404200338713, guid: 1e74bfb63879a884587e912d403ea68f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -134,7 +134,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Worm: {fileID: 6124748366376556186, guid: 2f90510ef887bec4fa7966139152d4ca, type: 3}
-  Animator: {fileID: 5381473266747962762}
 --- !u!50 &3748179125073505459
 Rigidbody2D:
   serializedVersion: 4

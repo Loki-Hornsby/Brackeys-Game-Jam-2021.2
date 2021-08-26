@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pickup
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -46,6 +48,9 @@ TagManager:
     locked: 0
   - name: Door
     uniqueID: 3785962179
+    locked: 0
+  - name: Item
+    uniqueID: 3491074789
     locked: 0
   - name: Projectiles
     uniqueID: 3795541657

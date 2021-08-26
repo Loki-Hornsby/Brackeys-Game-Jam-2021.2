@@ -34,3 +34,4 @@ _________
 + added Worm Spotter.cs
 + added Worm.cs
 + added Tile1.cs (slows the player)
++ added Soap bottle.cs

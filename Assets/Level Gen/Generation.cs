@@ -9,18 +9,25 @@ public class Generation : MonoBehaviour{
 
     public int BranchAmountRange;
     public int BranchSizeRange;
-    [Space(10)]
+
+    [Header("Exit Door")]
+    public GameObject ExitDoor;
+    public AudioSource Door_Audiosrc;
+    public Animator Door_fade;
 
     [Header("Edges")]
     public GameObject BottomLeftCorner;
     public GameObject BottomRightCorner;
     public GameObject TopLeftCorner;
     public GameObject TopRightCorner;
-    [Space(10)]
+ 
     public GameObject LeftWall;
     public GameObject RightWall;
     public GameObject TopWall;
     public GameObject BottomWall;
+
+    [Header("Trash Pickups")]
+    public List<GameObject> trashPickups = new List<GameObject>();
 
     private List<GameObject> tilePositions = new List<GameObject>();
 
@@ -78,7 +85,7 @@ public class Generation : MonoBehaviour{
 
     public void Gen(List<GameObject> Tiles, List<GameObject> Enemies, List<GameObject> Props){
         GameObject Centre = new GameObject("Centre");
-        Centre.transform.position = new Vector2((Amount/2f)-0.5f, (Amount/2f)-0.5f);
+        Centre.transform.position = new Vector2((Amount/2)*(Size.x/1.6f), (Amount/2)*(Size.y/1.6f));
         
         for (int x = 0; x < Amount; x++){
             for (int y = 0; y < Amount; y++){
@@ -125,7 +132,7 @@ public class Generation : MonoBehaviour{
         }
 
         // Enemies
-        int enemy_count = Random.Range(1, 200);
+        int enemy_count = Random.Range(50, 250);
 
         for (int e = 0; e < enemy_count; e++){
             GameObject enemy_ = PickEnemy(Enemies);
@@ -136,5 +143,24 @@ public class Generation : MonoBehaviour{
                     Quaternion.identity);
             
         }
+
+        // Trash Pickups
+        for (int e = 0; e < enemy_count/4 + 5; e++){
+            GameObject item = trashPickups[Random.Range(0, trashPickups.Count)];
+
+            GameObject obj_ = Instantiate(
+                    item, 
+                    tilePositions[Random.Range(0, tilePositions.Count)].transform.position, 
+                    Quaternion.identity);
+        }
+
+        // Door
+        GameObject door = Instantiate(
+            ExitDoor, 
+            Centre.transform.position, 
+            Quaternion.identity);
+
+        door.GetComponent<Door>().Sound = Door_Audiosrc;
+        door.GetComponent<Door>().screenFade = Door_fade;
     }
 }
