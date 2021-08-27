@@ -21,6 +21,7 @@ public class AmmoItem : MonoBehaviour{
         if (state == 1){
             if (other.gameObject.tag == "Enemy"){
                 Destroy(other.gameObject);
+                Destroy(this.gameObject);
             }
         }
     }

@@ -22,7 +22,7 @@ public class Door : MonoBehaviour{
         screenFade.ResetTrigger("Fade_out");
         screenFade.SetTrigger("Fade_out");
 
-        Invoke("Loadlvl",5); // isn't loading correctly
+        Invoke("Loadlvl", 5f);
     }
 
     void Update(){

@@ -1,0 +1,20 @@
+_________
+
+27/08/21:
+_________
+
++ added Menu
+	+ added Mainmenu.cs
+	+ added quit
+	+ added how to play
+	+ added start
+	
++ added fading and loading!
++ added audiohandle.cs
++ added quit.cs
++ added thud to menu
++ added tile 4,5,6
++ added tile 6.cs
+- removed tile 6.cs
+
++ added Build1.exe
