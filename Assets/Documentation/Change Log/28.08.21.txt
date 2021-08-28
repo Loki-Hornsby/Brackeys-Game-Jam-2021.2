@@ -1,0 +1,62 @@
+_________
+
+28/08/21:
+_________
+
+The rush to final build!!!!!
+
++ added readded thud to menu and added a menu song
++ added common and rare enemies
++ added randomization to players position
++ added fix to fade upon death
++ added black background to camera
+% changed randomization of players position to a designated corner
+
++ added Build2
+
+% changed enemy amount to depend on amount of tiles on map
++ added a belief that i have fixed the quit button
++ added collision physics to bullets without effecting the player!!!!!
+% changed goal of game to get uknown amount of kills to get to door else get damaged 10hp
+% changed generation to now be random - size, amount of tiles, enemies
++ added kill functionality (in under 2 minutes might i add)
++ added above to how to menu
+% changed common and rare enemies to actually work (a random number between 1 and 1000 can not be above 8000 silly :P)
+
++ added Build3 WOOOOOO!!!!! WORKING BETA :D :D :D :D :D :D :D :D :D :D 
+
++ added cleaner randomization
++ added increase to tile size so you can see pixels on tile assets now
++ added trash talk beta
++ added Simple bullet
++ added Bubble
++ added tile 7 - o0OO0o color!
++ added tile 8 
+% changed randomization of amount of tiles to be (amount*amount)/4 to (amount*amount)/2 
+(multiplying by self in order to calculate all tiles on map since [amount] accounts for width and height within the code)
++ added more rarity's 1-10 now 
+
+REALISED ITS DUE AT 11 AM TOMMOROW NOT PM
+RUSHING...... 3, 2, 1 NOW!
++ added Dynamite 
++ added Enemy killing to explosion
+
++ added BUILD 3 DYNAMITE PRETTY TILES AND A WHOLE LOT OF WORKING SHIT :D
+
++ added Fix to door not allowing player in since not having enough kills - but some enemies are invincible
++ added fix to enemies dying not counting as kills - i'm looking at you binbag enemy
+
++ added BUILD 4
+
++ added Largos dope ass music - so cool :)
+
+>>>>>>>>>>>>>>>>>>>
++ added FINAL BUILD
+>>>>>>>>>>>>>>>>>>>
+
+> time:
+> 22:06
+> date:
+> 22/08/21
+> output;
+> jam complete

@@ -14,6 +14,8 @@ public class Worm : MonoBehaviour{
     Rigidbody2D rb;
     private bool FacingRight = false;
 
+    public int damage;
+
     void Start(){
         Dead = false;
 
@@ -46,16 +48,17 @@ public class Worm : MonoBehaviour{
             // Movement
             rb.position = Vector2.MoveTowards(rb.transform.position, Player[0].transform.position, moveSpeed * Time.deltaTime);
         }
+    }
 
-        // kill worm
-        if (Vector3.Distance(this.transform.position, Player[0].transform.position) < 1f & !Dead){
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "Player"){
             Anim.SetTrigger("Die");
             Destroy(GetComponent<BoxCollider2D>());
             Destroy(rb);
-            Player[0].gameObject.GetComponent<Health>().UpdateHealth(-10);
+            Player[0].gameObject.GetComponent<Health>().UpdateHealth(-damage);
             this.gameObject.transform.parent = Player[0].transform;
 
             Dead = true;
-        }   
+        }
     }
 }

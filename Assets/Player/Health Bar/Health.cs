@@ -20,6 +20,10 @@ public class Health : MonoBehaviour{
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
 
+    void fade(){
+        screenfadeanimator.SetTrigger("Fade_out");
+    }
+
     public void UpdateHealth(int val){
         if ((_Health + val) > 0){
             Anim.SetTrigger("Hurt");
@@ -31,11 +35,11 @@ public class Health : MonoBehaviour{
             Debug.Log("GameOver - set trigger in animation");
 
             screenfadeanimator.ResetTrigger("Fade_in");
-            screenfadeanimator.SetTrigger("Fade_out");
+            Invoke("fade", 4f);
 
-            StartCoroutine(audiohandle.FadeOut(2f));
+            StartCoroutine(audiohandle.FadeOut(4f));
 
-            Invoke("loadmenu", 3f);
+            Invoke("loadmenu", 9f);
 
             Anim.SetTrigger("Kill");
 

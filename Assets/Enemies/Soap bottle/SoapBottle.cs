@@ -14,6 +14,16 @@ public class SoapBottle : MonoBehaviour{
     Rigidbody2D rb;
     private bool FacingRight = false;
 
+    public GameObject Bullet;
+    public int bulletAmount;
+    public int RechargeDelay;
+
+    private Vector2 position;
+
+    void updatePosition(){
+        position = Player[0].transform.position + new Vector3(Random.Range(-10,10), Random.Range(-10,10), 0);
+    }
+
     void Start(){
         Disabled = false;
 
@@ -26,6 +36,10 @@ public class SoapBottle : MonoBehaviour{
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    public void reEnable(){
+        Disabled = false;
     }
 
     void Update(){
@@ -44,7 +58,7 @@ public class SoapBottle : MonoBehaviour{
             }
 
             // Movement
-            rb.position = Vector2.MoveTowards(rb.transform.position, Player[0].transform.position, moveSpeed * Time.deltaTime);
+            rb.position = Vector2.MoveTowards(rb.position, position, moveSpeed * Time.deltaTime);
         }
 
         // Attack
@@ -52,7 +66,20 @@ public class SoapBottle : MonoBehaviour{
             Anim.ResetTrigger("Attack");
             Anim.SetTrigger("Attack");
 
+            Invoke("reEnable", RechargeDelay);
+
+            for (int i = 0; i < bulletAmount; i++){
+                GameObject bullet = Instantiate(Bullet, this.transform.position + new Vector3(Random.Range(-10,10), Random.Range(-10,10), 0), Quaternion.identity);
+                bullet.GetComponent<Rigidbody2D>().AddForce((Player[0].transform.position - this.transform.position).normalized*40f, ForceMode2D.Impulse);
+            }
+
             Disabled = true;
         }   
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "Player"){
+            Player[0].GetComponent<Health>().UpdateHealth(-2);
+        }
     }
 }

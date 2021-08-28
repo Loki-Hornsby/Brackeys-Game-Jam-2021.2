@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8443753322387714561}
   m_Layer: 0
   m_Name: Bin Juice
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -499425639
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -4848329244456854130, guid: cdfacacdee639d849ad6ba35a206ef7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

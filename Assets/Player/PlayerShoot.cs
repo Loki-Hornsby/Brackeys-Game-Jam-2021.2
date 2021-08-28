@@ -19,14 +19,16 @@ public class PlayerShoot : MonoBehaviour{
                 GameObject Bulletprefab = Ammo.AmmoList[Random.Range(0, Ammo.AmmoList.Count)];
                 GameObject Bullet = Bulletprefab; //Instantiate(Bulletprefab, Shootpos.transform.position, Quaternion.identity);
 
-                Bullet.transform.position = Shootpos.transform.position;
-                Bullet.SetActive(true);
+                if (Bullet != null){
+                    Bullet.transform.position = Shootpos.transform.position;
+                    Bullet.SetActive(true);
 
-                Rigidbody2D rb = Bullet.GetComponent<Rigidbody2D>();
-                rb.AddForce((mousePos - Bullet.transform.position).normalized*40f, ForceMode2D.Impulse);
+                    Rigidbody2D rb = Bullet.GetComponent<Rigidbody2D>();
+                    rb.AddForce((mousePos - Bullet.transform.position).normalized*40f, ForceMode2D.Impulse);
 
-                Destroy(Bullet, 50f);
-                
+                    Destroy(Bullet, 50f);
+                }
+
                 Ammo.AmmoList.Remove(Bulletprefab);
             } else {
                 Debug.Log("Make Empty Sound");

@@ -13,7 +13,7 @@ public class BinJuice : MonoBehaviour {
     }
 
     void Start(){
-        InvokeRepeating("hurt", 0f, 1f);
+        InvokeRepeating("hurt", 0f, 0.1f);
     }
 
     public void OnTriggerEnter2D(Collider2D col){

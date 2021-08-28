@@ -50,6 +50,8 @@ public class binbag : MonoBehaviour{
 
             // Explosion Death
             if (Vector3.Distance(rb.position, Player[0].transform.position) < 5f){
+                Player[0].GetComponent<kills>()._kills += 1;
+
                 rb.position = Vector2.MoveTowards(rb.transform.position, Player[0].transform.position, moveSpeed * Time.deltaTime);
 
                 Destroy(this.gameObject.GetComponent<CircleCollider2D>());

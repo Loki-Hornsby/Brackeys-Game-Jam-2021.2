@@ -38,7 +38,7 @@ public class Door : MonoBehaviour{
 
     public void OnTriggerEnter2D(Collider2D col){
         if (col.tag == "Player"){
-            if (col.gameObject.GetComponent<Ammo>().AmmoAmount >= 8){
+            if (col.gameObject.GetComponent<kills>().AllowDoor){
                 Player = col.gameObject;
 
                 Sound.PlayOneShot(open, 1f);
@@ -46,6 +46,7 @@ public class Door : MonoBehaviour{
                 OpenDoor = true;
             } else {
                 Sound.PlayOneShot(locked, 0.1f); // forgot to reduce compression on sound software so this will have to do
+                col.gameObject.GetComponent<Health>().UpdateHealth(-10);
             }
 
             //Debug.Log("Fade out");
